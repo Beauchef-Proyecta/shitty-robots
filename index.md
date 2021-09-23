@@ -32,7 +32,8 @@ Quisimos replicar un actuador lineal de bajísimo costo, similar a los ejes de m
 Ocupamos como base un perfil de alumnio tipo V-Slot y sobre eso diseñamos piezas impresas en 3d, piezas para corte laser y piezas para fresado CNC, las cuales permitian añadir y soportar diferentes componentes mecánicos, tales como rodamientos, ejes, correas, etc., y electrónicos, tales como un arduino, motores paso a paso, servomotores, motores DC, sensores y luces LED.
 ## Equipo Docente
 
-Profesor del curso: Francisco Casado (yo)
+Profesor del curso: 
+- Francisco Casado
 
 Ayudantes:
 - María José Alfaro []()<br> 
