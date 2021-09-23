@@ -1,56 +1,96 @@
 ---
-title: "Sh*tty Robots"
-keywords: sample homepage
-sidebar: mydoc_sidebar
-permalink: index.html
+layout: default
+title: Home
+nav_order: 1
+description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+permalink: /
 ---
 
-{% include note.html content="Para ver el material del semestre Primavera 2021 puedes ir a aquí" %}
+# Focus on writing good documentation
+{: .fs-9 }
 
-## Qué es
+Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+{: .fs-6 .fw-300 }
 
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+---
 
-## Lista de partes
+## Getting started
 
-| #  | Nombre de la pieza <br> [cantidad prevista] | Material/Tipo      |  Imagen de Referencia  |
-| -- | ------------------------------------------- | ----------------- | -- |
-| 1  | Arduino UNO [1]                           | Electrónica       | ![01](img/01.png)|
-| 2  | Adaptador AC/DC [1]                       | Electrónica       | ![02](img/02.png)|
-| 3  | Cable Arduino USB [1]                     | Electrónica       | ![03](img/03.png)|
-| 4  | Protoboard [1]                            | Electrónica       | ![04](img/04.png)|
-| 5  | Servomotor [2]                            | Electrónica       | ![05](img/05.png)|
-| 6  | Motor Stepper [2]                         | Electrónica       | ![06](img/06.png)|
-| 7  | Motor DC con caja reductora [2]           | Electrónica       | ![07](img/07.png)|
-| 8  | Driver Motor Stepper [2]                  | Electrónica       | ![08](img/08.png)|
-| 9  | Puente H [1]                              | Electrónica       | ![09](img/09.png)|
-| 10 | Interruptor fin de carrera [2]            | Electrónica       | ![10](img/10.png)|
-| 11 | Regulador de Voltaje [1]                  | Electrónica       | ![11](img/11.png)|
-| 12 | Cables Dupont (M-M) [20]                  | Electrónica       | ![12](img/12.png)|
-| 13 | Cables Dupont (M-H) [20]                  | Electrónica       | ![13](img/13.png)|
-| 14 | Cables Dupont (H-H) [20]                  | Electrónica       | ![14](img/14.png)|
-| 15 | Base cuadrada 80x80mm [2]                 | MDF (madera)      | ![15](img/15.png)|
-| 16 | Soporte Motor Stepper [2]                 | MDF (madera)      | ![16](img/16.png)|
-| 17 | Soporte Polea Lisa [2]                    | MDF (madera)      | ![17](img/17.png)|
-| 18 | V-slot 250mm [1]                          | Aluminio extruido | ![18](img/18.png)|
-| 19 | Correa GT2 700mm [1]                      | Caucho reforzado  | ![19](img/19.png)|
-| 20 | Patín [2]                                 | 3D print          | ![20](img/20.png)|
-| 21 | Polea Lisa [2]                            | 3D print          | ![21](img/21.png)|
-| 22 | Polea Dentada [4]                         | 3D print          | ![22](img/22.png)|
-| 23 | Acople Motor DC [2]                       | 3D print          | ![23](img/23.png)|
-| 24 | Sturdynators [2]                          | 3D print          | ![24](img/24.png)|
-| 25 | Brazos de T-Rex [2]                       | 3D print          | ![25](img/25.png)|
-| 26 | Adaptador Tuerca - V-slot [14]            | 3D print          | ![26](img/26.png)|
-| 27 | Espaciador 15mm [4]                       | 3D print          | ![27](img/27.png)|
-| 28 | Espaciador Polea Lisa [4]                 | 3D print          | ![28](img/28.png)|
-| 29 | Espaciador 2mm [12]                       | 3D print          | ![29](img/29.png)|
-| 30 | Espaciador OchO 1mm [2]                   | 3D print          | ![30](img/30.png)|
-| 31 | Sujetador para correa GT2 [3]             | 3D print          | ![31](img/31.png)|
-| 32 | Perno Parker M3x10mm [14]                 | Acero Negro       | ![32](img/32.png)|
-| 33 | Perno Parker M3x20mm [6]                  | Acero Inoxidable  | ![33](img/33.png)|
-| 34 | Perno Parker M3x25mm [6]                  | Acero Negro       | ![34](img/34.png)|
-| 35 | Perno Parker M3x30mm [4]                  | Acero Negro       | ![35](img/35.png)|
-| 36 | Golilla plana M3 [4]                      | Acero Zincado     | ![36](img/36.png)|
-| 37 | Tuercas M3 [24]                           | Acero Zincado     | ![37](img/37.png)|
-| 38 | Llave Allen 2.5 [1]                       | Herramienta       | ![38](img/38.png)|
-| 39 | Ojos Locos [4]                            | Just Fun          | ![39](img/39.png)|
+### Dependencies
+
+Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+
+### Quick start: Use as a GitHub Pages remote theme
+
+1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+```yaml
+remote_theme: pmarsceill/just-the-docs
+```
+<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+
+### Local installation: Use the gem-based theme
+
+1. Install the Ruby Gem
+```bash
+$ gem install just-the-docs
+```
+```yaml
+# .. or add it to your your Jekyll site’s Gemfile
+gem "just-the-docs"
+```
+2. Add Just the Docs to your Jekyll site’s `_config.yml`
+```yaml
+theme: "just-the-docs"
+```
+3. _Optional:_ Initialize search data (creates `search-data.json`)
+```bash
+$ bundle exec just-the-docs rake search:init
+```
+3. Run you local Jekyll server
+```bash
+$ jekyll serve
+```
+```bash
+# .. or if you're using a Gemfile (bundler)
+$ bundle exec jekyll serve
+```
+4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+
+If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+
+### Configure Just the Docs
+
+- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+
+---
+
+## About the project
+
+Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
+
+### License
+
+Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+
+### Contributing
+
+When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+
+#### Thank you to the contributors of Just the Docs!
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
+
+### Code of Conduct
+
+Just the Docs is committed to fostering a welcoming community.
+
+[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
