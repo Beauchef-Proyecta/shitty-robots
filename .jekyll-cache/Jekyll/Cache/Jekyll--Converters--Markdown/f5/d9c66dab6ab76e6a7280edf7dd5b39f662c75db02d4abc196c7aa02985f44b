@@ -1,0 +1,48 @@
+I"�<p><em>Ante la imposibilidad de ir presencialmente a la facultad durante la pandemia, junto a un equipo interdisciplinario de ayudantes creamos un curso, material on-line y kits robótica para que estudiantes de 2do año de la <a href="https://ingenieria.uchile.cl/">FCFM</a> pudiera aprender desde sus casas, todo en modalidad de clases remotas.</em></p>
+
+<p><img src="/assets/images/shitty.png" alt="kit de materiales" /></p>
+
+<h2 id="qué-es">Qué es</h2>
+
+<p>Sh*tty Robots comprende varias herramientas pedagógicas para que estudiantes puedan aprender robótica:</p>
+<ul>
+  <li>Un programa de clases en formato on-line sobre fundamentos de diseño y fabricación de robots: cinemática, dinámica, mecanismo, materiales, electrónica, micro-controladores, sensores &amp; actuadores y programación.</li>
+  <li>Un <em>kit</em> de piezas y componentes electrónicos para aprender los contenidos del curso de manera prática. Está todo pensado para que se pueda diseñar y armar un robot completamente funcional, sin requerir herramientas ni instrumentos de laboratorio.</li>
+</ul>
+
+<h2 id="por-qué-lo-hicimos">Por qué lo hicimos</h2>
+
+<p>No podíamos dejar que una generación completa de estudiantes de segundo año no tuviera acceso a aprender robótica de manera práctica. El segundo año de la facultad se caracteriza por tener ramos temáticos de proyecto y siempre se abren secciones de robótica, pero la pandemia amenazaba con eliminar esa oferta de cursos… ¡nosotres logramos revertirlo :muscle:!</p>
+
+<h2 id="las-clases">Las clases</h2>
+<p>Todos los viernes nos conectamos entre las ~14:30 y las 18:00 horas para hacer las clases:</p>
+<ul>
+  <li>El primer bloque tenía clases expositivas de corta duración, más la muestra de un ejemplo básico de la tarea que debía realizarse en el segundo bloque.</li>
+  <li>El segundo bloque era trabajo individual, pero con todo el curso conectado por <a href="https://discord.com/">Discord</a> para que el equipo docente respondiera dudas. Las tareas tenían plazo de una semana y eran formativas, es decir, no tenían nota</li>
+  <li>A pesar de no tener nota, dabamos feedback en cada entrega y fue de las cosas más valoradas del curso.</li>
+</ul>
+
+<h2 id="el-kit-de-materiales">El kit de materiales</h2>
+<p>Quisimos replicar un actuador lineal de bajísimo costo, similar a los ejes de máquinas CNC, como impresoras 3d (ej: <a href="https://www.creality.com/es/goods-detail/ender-3-3d-printer?gclid=CjwKCAjwqvyFBhB7EiwAER786XloYzZ1jwpa8iFu_ilYFyBUMy8_c2-glb3XtRkkbnOUDny0OErrixoCaWEQAvD_BwE">Ender 3</a>) o una fresadora de escritorio (ej: <a href="https://www.shopbottools.com/products/desktop">Shopbot Desktop</a>)</p>
+
+<p>Ocupamos como base un perfil de alumnio tipo V-Slot y sobre eso diseñamos piezas impresas en 3d, piezas para corte laser y piezas para fresado CNC, las cuales permitian añadir y soportar diferentes componentes mecánicos, tales como rodamientos, ejes, correas, etc., y electrónicos, tales como un arduino, motores paso a paso, servomotores, motores DC, sensores y luces LED.</p>
+<h2 id="equipo-docente">Equipo Docente</h2>
+
+<p>Profesor del curso: Francisco Casado (yo)</p>
+
+<p>Ayudantes:</p>
+<ul>
+  <li>María José Alfaro <a href=""></a><br /></li>
+  <li>Ulises Campodónico <a href="https://www.linkedin.com/in/ulises2111/">:link:</a><br /></li>
+  <li>Cristóbal Mesías <a href="https://github.com/cmesiasd">:link:</a><br /></li>
+  <li>Fernanda Sanchirico <a href="https://www.linkedin.com/in/fernanda-sanchirico-barrera-8b25341a4">:link:</a><br /></li>
+  <li>Leslie Cárdenas</li>
+</ul>
+
+<h2 id="colaboraron">Colaboraron</h2>
+
+<ul>
+  <li><a href="http://www.fablab.uchile.cl/">FabLab U de Chile #LoMásGrande</a></li>
+  <li><a href="https://helice.ing.uchile.cl/">Hélice - Escuela de Ingeniería y Ciencias</a></li>
+</ul>
+:ET
